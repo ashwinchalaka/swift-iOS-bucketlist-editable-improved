@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		136D14D3214DFFD60010E84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D14D2214DFFD60010E84C /* AppDelegate.swift */; };
-		136D14D5214DFFD60010E84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D14D4214DFFD60010E84C /* ViewController.swift */; };
 		136D14D8214DFFD60010E84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D14D6214DFFD60010E84C /* Main.storyboard */; };
 		136D14DA214DFFD70010E84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D14D9214DFFD70010E84C /* Assets.xcassets */; };
 		136D14DD214DFFD70010E84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D14DB214DFFD70010E84C /* LaunchScreen.storyboard */; };
 		136D14E8214DFFD70010E84C /* blrefactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D14E7214DFFD70010E84C /* blrefactorTests.swift */; };
 		136D14F3214DFFD70010E84C /* blrefactorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D14F2214DFFD70010E84C /* blrefactorUITests.swift */; };
+		136D1501214E00440010E84C /* HomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D1500214E00440010E84C /* HomeTableVC.swift */; };
+		136D1503214E00730010E84C /* AddEditTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D1502214E00730010E84C /* AddEditTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		136D14CF214DFFD60010E84C /* blrefactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blrefactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136D14D2214DFFD60010E84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		136D14D4214DFFD60010E84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		136D14D7214DFFD60010E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136D14D9214DFFD70010E84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136D14DC214DFFD70010E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		136D14EE214DFFD70010E84C /* blrefactorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blrefactorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136D14F2214DFFD70010E84C /* blrefactorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blrefactorUITests.swift; sourceTree = "<group>"; };
 		136D14F4214DFFD70010E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136D1500214E00440010E84C /* HomeTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableVC.swift; sourceTree = "<group>"; };
+		136D1502214E00730010E84C /* AddEditTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				136D14D2214DFFD60010E84C /* AppDelegate.swift */,
-				136D14D4214DFFD60010E84C /* ViewController.swift */,
+				136D1500214E00440010E84C /* HomeTableVC.swift */,
+				136D1502214E00730010E84C /* AddEditTableVC.swift */,
 				136D14D6214DFFD60010E84C /* Main.storyboard */,
 				136D14D9214DFFD70010E84C /* Assets.xcassets */,
 				136D14DB214DFFD70010E84C /* LaunchScreen.storyboard */,
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136D14D5214DFFD60010E84C /* ViewController.swift in Sources */,
+				136D1501214E00440010E84C /* HomeTableVC.swift in Sources */,
+				136D1503214E00730010E84C /* AddEditTableVC.swift in Sources */,
 				136D14D3214DFFD60010E84C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5399F5J7;
 				INFOPLIST_FILE = blrefactor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5399F5J7;
 				INFOPLIST_FILE = blrefactor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
